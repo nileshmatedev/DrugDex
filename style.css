@@ -3,7 +3,8 @@
 }
 /* body */
 body{
-    background-image: url('Assets/Home\ Page.svg');
+    background-image: url('Assets/Home\ Page1.png');
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: local;
     margin: 0;
@@ -326,9 +327,9 @@ body {
     font-weight: 700;
     line-height: 72px;
     word-wrap: break-word;
-    position: absolute;
-    left: 493px; /* X-axis */
-    top: 1515px; /* Y-axis */
+    text-align: center;
+    position: relative;
+    top: 1100px;
 }
  
 /*-----------------------------------------------------------------------------*/
@@ -469,12 +470,70 @@ body {
     font-family: Inter;
 }  
 
+.artical{
+    position: absolute;
+    left: 15px;
+    top: 1300px;
+}
+#arti1{
+    position: absolute;
+    top: 100px;
+    height: 468px;
+    width: 1250px;
+}
+.faq-title {
+    width: 100%;
+    color: #252432;
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 72px;
+    word-wrap: break-word;
+    
+    position: absolute; /* Use absolute positioning */
+    left: 181px; /* X-axis position */
+    top: 3359px; /* Y-axis position */
+  }
+  
+  
+  
 
+  .AlwaysFreeToUse {
+    color: #252432;
+    font-size: 48px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 57.6px;
+    word-wrap: break-word;
+    position: absolute;
+    left: 163px; /* X-axis */
+    top: 2634px; /* Y-axis */
+}
+#searchResults {
+    text-align: left;
+    margin: 20px auto;
+    width: 80%;
+}
+#searchResults {
+    text-align: left;
+    margin: 20px auto;
+    width: 80%;
+}
 
+.medicine-info {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
 
+.medicine-info h3 {
+    color: #333;
+}
 
-
-
+.medicine-info p {
+    margin: 5px 0;
+}
 
 
 
@@ -515,3 +574,4 @@ body {
     left: 163px; /* X-axis */
     top: 2634px; /* Y-axis */
 }
+

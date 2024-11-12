@@ -1,0 +1,49 @@
+/* Styles for the search bar */
+#searchbutton {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+.example button {
+    width: 10%;
+    padding: 10px;
+    background: #0b7dda;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+.example button:hover {
+    background: #0a6ec7;
+}
+
+#searchResults {
+    text-align: left;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.medicine-info {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.medicine-info h3 {
+    color: #333;
+}
+
+.medicine-info p {
+    margin: 5px 0;
+}

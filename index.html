@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 <body> 
+
+  <!----------------------------------------------------------------------------->
+
+
+
+
             <header>
 
                 <div class="Navigation" >
@@ -46,21 +52,28 @@
     <div>
        <div class="drugdex-a-medicinal">DRUGDEX A MEDICINAL DATABASE</div>
             <div class="empowering-you-with">EMPOWERING YOU WITH MEDICINE KNOWLEGE</div>
-       <div>
-        <div id="searchbutton">
-            <!-- The form -->
-            <form class="example" action="#">
-               <input type="text" placeholder="    Search Medicine..." name="search">
-               <button type="submit"><i class="fa fa-search"></i></button>
-           </form>
-       </div>
+            
+            <div id="searchbutton">
+                <!-- The form -->
+                <form class="example" onsubmit="searchMedicine(event)">
+                  <input type="text" id="searchInput" placeholder="Search Medicine..." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+              <div id="searchResults"></div>
+              
         </div> 
+         <!-- Div to display the search results -->
+    <div id="searchResults"></div>
+
+    <!-- Link to your JS file -->
+    <script type="module" src="script.js"></script>
     <!------------------------------------------------------------------------------->
         <div>
-            <div class="WhatWeDo">What We Do</div>
-            <div class="CheckOurArticle">Check our Article</div>
-<div><div class="AlwaysFreeToUse">Always Free To Use</div>
-</div>
+            <div class="WhatWeDo">What We Do</div>  
+        </div> 
+
+  
 <div class="boxes">
             
                 <!--Box1-->
@@ -105,7 +118,11 @@
                     </div>
 </div>             
         <!--------------------------------------------------------------------------------------->
-
-        
+        <div class="CheckOurArticle">Check our Article</div>
+        <div class="artical">
+    
+    <img id="arti1" src="Assets/artical.png" alt="artical"> 
+</div>
+<script src="script.js"> </script>
 </body>
 </html>
